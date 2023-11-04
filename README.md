@@ -27,9 +27,10 @@ It contains the following 6 fields:
 * Removal of URLs 
 * Removal of HTML tags
 
-**Results :**  
-              precision    recall  f1-score   support  
+**Results :**    
   
+
+              precision    recall  f1-score   support    
     Negative       0.81      0.76      0.78    159494  
     Positive       0.77      0.82      0.80    160506  
   
