@@ -27,14 +27,31 @@ It contains the following 6 fields:
 * Removal of URLs 
 * Removal of HTML tags
 
-Source :   
+**Results :**  
+              precision    recall  f1-score   support  
+  
+    Negative       0.81      0.76      0.78    159494  
+    Positive       0.77      0.82      0.80    160506  
+  
+    accuracy                           0.79    320000  
+   macro avg       0.79      0.79      0.79    320000  
+weighted avg       0.79      0.79      0.79    320000    
+
+model = Model(X, y, LogisticRegression(C=best_params_lr['classifier__C'], max_iter=best_params_lr['classifier__max_iter']),   
+              CountVectorizer(preprocessor=preprocess, max_features=best_params_cv['count_vectorizer__max_features'],  
+ ngram_range=best_params_cv['count_vectorizer__ngram_range']))  
+
+
+
+**Source :**   
 https://www.kaggle.com/datasets/kazanova/sentiment140/  
 https://openclassrooms.com/fr/courses/5801891-initiez-vous-au-deep-learning/5814656-decouvrez-les-cellules-a-memoire-interne-les-lstm  
 https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.ml.feature.CountVectorizerModel.html  
 https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html  
 https://www.kaggle.com/code/arunrk7/nlp-beginner-text-classification-using-lstm  
 
-Comments : The pre processing part, model training and model improvement was very well understood. I had a lot more trouble with the Pytorch and LSTM part, I took a lot from the internet and I had trouble completely understanding all the steps and the logic behind it.  
+**Comments :**  
+The pre processing part, model training and model improvement was very well understood. I had a lot more trouble with the Pytorch and LSTM part, I took a lot from the internet and I had trouble completely understanding all the steps and the logic behind it.  
 
 
 
