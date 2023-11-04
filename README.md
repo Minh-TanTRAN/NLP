@@ -60,7 +60,7 @@ https://www.kaggle.com/code/arunrk7/nlp-beginner-text-classification-using-lstm
 
     
 **Comments :**  
-The pre processing part, model training and model improvement was very well understood. I had a lot more trouble with the Pytorch and LSTM part, I took a lot from the internet and I had trouble completely understanding all the steps and the logic behind it.  
+The pre processing part, model training and model improvement was very well understood. I had a lot more trouble with the Pytorch and LSTM part.
 
 
 
