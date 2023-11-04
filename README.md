@@ -37,6 +37,7 @@ It contains the following 6 fields:
    macro avg       0.79      0.79      0.79    320000  
 weighted avg       0.79      0.79      0.79    320000    
 
+
 model = Model(X, y, LogisticRegression(C=best_params_lr['classifier__C'], max_iter=best_params_lr['classifier__max_iter']),   
               CountVectorizer(preprocessor=preprocess, max_features=best_params_cv['count_vectorizer__max_features'],  
  ngram_range=best_params_cv['count_vectorizer__ngram_range']))  
