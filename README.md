@@ -18,6 +18,25 @@ It contains the following 6 fields:
 
 - text: the text of the tweet (Lyx is cool)
 
+**Some of the common text preprocessing that we use:**
+* Lower casing
+* Removal of Punctuations
+* Removal of Stopwords
+* Stemming
+* Lemmatization
+* Removal of URLs 
+* Removal of HTML tags
+
+Source :   
+https://www.kaggle.com/datasets/kazanova/sentiment140/  
+https://openclassrooms.com/fr/courses/5801891-initiez-vous-au-deep-learning/5814656-decouvrez-les-cellules-a-memoire-interne-les-lstm  
+https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.ml.feature.CountVectorizerModel.html  
+https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html  
+https://www.kaggle.com/code/arunrk7/nlp-beginner-text-classification-using-lstm  
+
+Comments : The pre processing part, model training and model improvement was very well understood. I had a lot more trouble with the Pytorch and LSTM part, I took a lot from the internet and I had trouble completely understanding all the steps and the logic behind it.  
+
+
 
   # ***Build your own NLP Project***
 
