@@ -34,8 +34,8 @@ It contains the following 6 fields:
     Positive       0.77      0.82      0.80    160506  
   
     accuracy                           0.79    320000  
-   macro avg       0.79      0.79      0.79    320000  
-weighted avg       0.79      0.79      0.79    320000    
+    macro avg       0.79      0.79      0.79    320000   
+    weighted avg       0.79      0.79      0.79    320000      
 
 
 model = Model(X, y, LogisticRegression(C=best_params_lr['classifier__C'], max_iter=best_params_lr['classifier__max_iter']),   
