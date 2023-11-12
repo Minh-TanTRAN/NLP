@@ -59,9 +59,16 @@ https://www.kaggle.com/code/arunrk7/nlp-beginner-text-classification-using-lstm
 
 
     
-**Comments :**  
-The pre processing part, model training and model improvement was very well understood. I had a lot more trouble with the Pytorch and LSTM part.
+**Conclusion**    
+Lors de ce projet, nous avons utilisé le Dataset Sentiment140. Sur ce Dataset, nous avons tout d'abord effectué un preprocessing sur le data pour rendre le dataset propre aux algorithmes d'apprentissages. Nous avons enlevé les majuscules, enlevé la ponctuation, les mails et les sites http.
 
+Ensuite, nous avons testé les prédictions de la classe Sentiment sur notre première modèle de pipeline. Nous avons ensuite cherché à améliorer le pipeline en testant différents classifiers, modèles. Lorsque l'on a trouvé notre meilleur modèle, nous avons utilisé GridSearchCv pour trouver les meilleurs hyperparamètres. 
+
+Le dernier fichier constitue le modèle de Deep Learning où nous avons utilisé le modèle LTSM.  
+
+**Remerciement**  
+- Kaggle for the dataset
+- NLP courses from Ryan Pegoud
 
 
 
