@@ -70,10 +70,10 @@ The last file constitutes the Deep Learning model where we used the LTSM model.
 **Acknowledgments**  
 - Kaggle for the dataset
 - NLP courses from Ryan Pegoud
+    
 
 
-
-
+## Subject
       
   # ***Build your own NLP Project***
 
